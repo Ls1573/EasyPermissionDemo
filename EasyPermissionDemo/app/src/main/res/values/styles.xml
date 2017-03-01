@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>
+        <item name="colorPrimary">#979797</item>
+        <item name="colorPrimaryDark">#979797</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowBackground">@color/common_background</item>
+    </style>
+
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <!-- 界面外不消失 -->
+    </style>
+
+</resources>
